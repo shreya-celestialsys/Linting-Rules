@@ -30,6 +30,11 @@ export default [
             "sonarjs/no-redundant-boolean":"error",
             "sonarjs/no-redundant-assignments":"error",
             "sonarjs/no-identical-functions":"error",
+
+            //variable naming convention
+            "new-cap": "error",
+            "id-length": ["error", { "min": 3 }],
+            "id-match": ["error", "^[a-z]+([A-Z][a-z]+)*$"]
        }
    }
 ];
