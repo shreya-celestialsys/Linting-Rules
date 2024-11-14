@@ -5,6 +5,9 @@ import noInlineFunctionRule from "./eslint-rules/index.js";
 export default [
     js.configs.recommended,
    {
+        linterOptions: {
+            noInlineConfig: true,
+        },
         plugins: {
             sonarjs,
             'inline-functions': noInlineFunctionRule
